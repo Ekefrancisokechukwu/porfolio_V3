@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #e5e7eb;
+  background: #0c0b0b url("../public//image//bg-pattern.png");
+  background-size: cover;
+}
+
+::selection {
+  @apply bg-stone-800;
+}
+
+a {
+  display: inline-block;
+}
+
+@layer components {
+  .main-btn {
+    @apply rounded bg-white text-black w-[9rem] font-bold h-[3rem]  capitalize grid place-items-center hover:scale-105 transition;
+    filter: drop-shadow(0 0 10px rgba(248, 248, 248, 0.3));
+  }
+  .intro {
+    height: 100vh;
+    /* background: url("../public//image//bg-pattern2.png"); */
+    display: grid;
+    place-content: center;
+  }
+
+  .primary-heading {
+    @apply sm:text-[48px] text-[30px] text-center;
+  }
+
+  .borderStyle {
+    border-image: linear-gradient(45deg, transparent, #cccccc74, transparent) 4;
+  }
+
+  .service-card {
+    grid-template-columns: 3rem auto;
+  }
+
+  .card-effect {
+    content: "";
+    position: absolute;
+    height: 70%;
+    width: 50%;
+    z-index: 4;
+    inset: 0;
+    pointer-events: none;
+    user-select: none;
+    opacity: 0.8;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.form-label {
+  @apply capitalize;
+}
+
+.form-input {
+  outline: 0;
+  background: none;
+  border: 0.8px solid #d4e4fe31;
+  padding: 0.7rem;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.shine-border {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(143, 143, 143, 0.67) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.shine {
+  background: conic-gradient(
+      from 90deg at 50% 50%,
+      rgba(0, 0, 0, 0) 50%,
+      rgb(0, 0, 0) 50%
+    ),
+    radial-gradient(rgba(200, 200, 200, 0.1) 0%, transparent 80%);
+}
