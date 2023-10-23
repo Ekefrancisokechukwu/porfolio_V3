@@ -20,7 +20,7 @@ const SingleProject = ({ project }: TProps) => {
       <div className="md:group-odd:order-2 md:group-even:order-1">
         <h1 className="sm:text-[32px] text-[28px]">{project.title}</h1>
 
-        <p className="mt-8 xl:w-[550px] sm:text-[20px] text-[18px] text-gray-400">
+        <p className="mt-8 xl:w-[540px] sm:text-[20px] text-[18px] text-gray-400">
           {project.project_info}
         </p>
 
@@ -68,13 +68,13 @@ const SingleProject = ({ project }: TProps) => {
         </div>
       </div>
 
-      <div className="md:group-odd:order-1 md:group-even:order-2 overflow-hidden  ">
+      <div className="md:group-odd:order-1 md:group-even:order-2   overflow-hidden  ">
         <Link href={project.url} target="_blank" className="block">
           <Image
             src={project.image}
             alt={"proj1"}
-            width="400"
-            height="400"
+            width={200}
+            height={300}
             className="group-hover:scale-[1.01] w-full h-full object-cover  transition-transform duration-500"
           />
         </Link>
