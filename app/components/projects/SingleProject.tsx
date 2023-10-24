@@ -73,8 +73,7 @@ const SingleProject = ({ project }: TProps) => {
           <Image
             src={project.image}
             alt={"proj1"}
-            width='200'
-            height='200'
+           
             className="group-hover:scale-[1.01] w-full h-full object-cover  transition-transform duration-500"
           />
         </Link>
