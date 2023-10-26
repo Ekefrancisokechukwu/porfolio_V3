@@ -15,6 +15,7 @@ import getLinked from "@/public/image/GetLinked.png";
 import yummi from "@/public/image/yummi.png";
 import pexels from "@/public/image/pexels.png";
 import don from "@/public/image/don.png";
+import house from "@/public/image/house.png";
 
 export const navlinks = [
   {
@@ -234,5 +235,14 @@ export const projects = [
       "I recreated pexels website  using their Api with the search functionality",
     url: "https://specter-pexels-clone.netlify.app/",
     sourceCode: "https://github.com/Ekefrancisokechukwu/pexles_clone",
+  },
+  {
+    image: house,
+    title: "pexels clone",
+    stacks: ["html", "css", "javascript"],
+    project_info:
+      "houseod of jewellerys was my first project,as i is an ecommerce website  ",
+    url: "https://household-of-jewellery.netlify.app/",
+    sourceCode: "https://github.com/Ekefrancisokechukwu/HOUSEHOLD",
   },
 ];
