@@ -214,7 +214,7 @@ export const projects = [
     stacks: ["html", "Tailwind.css", "react.js"],
     project_info:
       "An admin job and ecommerce tracking dashboard for updating and tracking jobs and sales",
-    url: "https://tracting-dashboard.netlify.app/landing",
+    url: "https://tracting-dashboard.netlify.app",
     sourceCode:
       "https://github.com/Ekefrancisokechukwu/admin_tracting_dash_Board",
   },
