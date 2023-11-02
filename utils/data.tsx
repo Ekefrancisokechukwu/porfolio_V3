@@ -182,6 +182,15 @@ export const skills = [
 
 export const projects = [
   {
+    image: pexels,
+    title: "pexels clone",
+    stacks: ["html", "Tailwind.css", "react.js"],
+    project_info:
+      "I recreated pexels website  using their Api with the search functionality",
+    url: "https://specter-pexels-clone.netlify.app/",
+    sourceCode: "https://github.com/Ekefrancisokechukwu/pexles_clone",
+  },
+  {
     image: don,
     title: "Donmaneul porfolio",
     stacks: ["html", "sass/css", "next.js"],
@@ -226,13 +235,5 @@ export const projects = [
     url: "https://getlinked-challenge-omega.vercel.app/",
     sourceCode: "https://github.com/Ekefrancisokechukwu/getlinkedChallenge",
   },
-  {
-    image: pexels,
-    title: "pexels clone",
-    stacks: ["html", "Tailwind.css", "react.js"],
-    project_info:
-      "I recreated pexels website  using their Api with the search functionality",
-    url: "https://specter-pexels-clone.netlify.app/",
-    sourceCode: "https://github.com/Ekefrancisokechukwu/pexles_clone",
-  },
+  
 ];
