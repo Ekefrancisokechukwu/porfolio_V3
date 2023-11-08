@@ -238,10 +238,9 @@ export const projects = [
   },
   {
     image: house,
-    title: "pexels clone",
+    title: "House of Jewellery",
     stacks: ["html", "css", "javascript"],
-    project_info:
-      "houseod of jewellerys was my first project,as i is an ecommerce website  ",
+    project_info: "houseod of jewellerys is an ecommerce website  ",
     url: "https://household-of-jewellery.netlify.app/",
     sourceCode: "https://github.com/Ekefrancisokechukwu/HOUSEHOLD",
   },

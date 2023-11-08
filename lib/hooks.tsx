@@ -3,7 +3,6 @@
 import { useInView } from "react-intersection-observer";
 import { useActiveContext } from "@/context/active_section";
 import { useEffect, useState } from "react";
-import { createClient } from "contentful";
 
 export const useSectionInView = (section: string, threshold = 0) => {
   const { setActiveSection, timeOfLastClick } = useActiveContext();
