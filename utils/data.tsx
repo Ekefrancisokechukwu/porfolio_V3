@@ -16,6 +16,7 @@ import yummi from "@/public/image/yummi.png";
 import pexels from "@/public/image/pexels.png";
 import don from "@/public/image/don.png";
 import house from "@/public/image/house.png";
+import specter from "@/public/image/specter.png";
 
 export const navlinks = [
   {
@@ -183,15 +184,13 @@ export const skills = [
 
 export const projects = [
   {
-    image: pexels,
-    title: "pexels clone",
-    stacks: ["html", "Tailwind.css", "react.js"],
-    project_info:
-      "I recreated pexels website  using their Api with the search functionality",
-    url: "https://specter-pexels-clone.netlify.app/",
-    sourceCode: "https://github.com/Ekefrancisokechukwu/pexles_clone",
+    image: specter,
+    title: "Specter Store",
+    stacks: ["html", "Tailwind", "Next.js", "Typescript"],
+    project_info: "Specter store is a Ecommerce website ",
+    url: "https://specter-store.vercel.app/",
+    sourceCode: "https://github.com/Ekefrancisokechukwu/Specter_store",
   },
-
   {
     image: x3code,
     title: "X3-Codes",
@@ -210,6 +209,15 @@ export const projects = [
       "E-commerce website , you can Filter the products, search for a products also has an add to cart and wishList functionality",
     url: "https://yummi-spok-food.netlify.app/",
     sourceCode: "https://github.com/Ekefrancisokechukwu/yummi-food",
+  },
+  {
+    image: pexels,
+    title: "pexels clone",
+    stacks: ["html", "Tailwind.css", "react.js"],
+    project_info:
+      "I recreated pexels website  using their Api with the search functionality",
+    url: "https://specter-pexels-clone.netlify.app/",
+    sourceCode: "https://github.com/Ekefrancisokechukwu/pexles_clone",
   },
   {
     image: don,
