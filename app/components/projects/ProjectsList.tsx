@@ -5,7 +5,7 @@ import { projects } from "@/utils/data";
 const ProjectsList = () => {
   return (
     <div className="mt-16">
-      {projects.slice(0, 3).map((project: TProjects, i) => {
+      {projects.slice(0, 4).map((project: TProjects, i) => {
         return <SingleProject key={i} project={project} />;
       })}
     </div>

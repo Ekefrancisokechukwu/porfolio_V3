@@ -183,14 +183,15 @@ export const skills = [
 
 export const projects = [
   {
-    image: don,
-    title: "Donmaneul porfolio",
-    stacks: ["html", "sass/css", "next.js"],
+    image: pexels,
+    title: "pexels clone",
+    stacks: ["html", "Tailwind.css", "react.js"],
     project_info:
-      "A UI/UX designer portfolio with great optimization and loading",
-    url: "https://donmauel-portfolio.vercel.app/",
-    sourceCode: "https://github.com/Ekefrancisokechukwu/donmanuel_portfolio",
+      "I recreated pexels website  using their Api with the search functionality",
+    url: "https://specter-pexels-clone.netlify.app/",
+    sourceCode: "https://github.com/Ekefrancisokechukwu/pexles_clone",
   },
+
   {
     image: x3code,
     title: "X3-Codes",
@@ -200,6 +201,7 @@ export const projects = [
     url: "https://x3-code.netlify.app/",
     sourceCode: "https://github.com/Ekefrancisokechukwu/x3-codes",
   },
+
   {
     image: yummi,
     title: "Yummi foods",
@@ -210,12 +212,21 @@ export const projects = [
     sourceCode: "https://github.com/Ekefrancisokechukwu/yummi-food",
   },
   {
+    image: don,
+    title: "Donmaneul porfolio",
+    stacks: ["html", "sass/css", "next.js"],
+    project_info:
+      "A UI/UX designer portfolio with great optimization and loading",
+    url: "https://donmauel-portfolio.vercel.app/",
+    sourceCode: "https://github.com/Ekefrancisokechukwu/donmanuel_portfolio",
+  },
+  {
     image: admin,
     title: "job tracting and ecommerce admine dashboard",
     stacks: ["html", "Tailwind.css", "react.js"],
     project_info:
       "An admin job and ecommerce tracking dashboard for updating and tracking jobs and sales",
-    url: "https://tracting-dashboard.netlify.app/landing",
+    url: "https://tracting-dashboard.netlify.app",
     sourceCode:
       "https://github.com/Ekefrancisokechukwu/admin_tracting_dash_Board",
   },
@@ -226,15 +237,6 @@ export const projects = [
     project_info: "Getlinkend hackton challenge website for registration",
     url: "https://getlinked-challenge-omega.vercel.app/",
     sourceCode: "https://github.com/Ekefrancisokechukwu/getlinkedChallenge",
-  },
-  {
-    image: pexels,
-    title: "pexels clone",
-    stacks: ["html", "Tailwind.css", "react.js"],
-    project_info:
-      "I recreated pexels website  using their Api with the search functionality",
-    url: "https://specter-pexels-clone.netlify.app/",
-    sourceCode: "https://github.com/Ekefrancisokechukwu/pexles_clone",
   },
   {
     image: house,
