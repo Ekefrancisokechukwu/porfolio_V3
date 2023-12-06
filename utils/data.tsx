@@ -172,6 +172,7 @@ export const services = [
 export const skills = [
   "html/css",
   "javascript",
+  "Typescript",
   "Responsive Web Design",
   "Version Control/Git",
   "Web Performance Optimization",
