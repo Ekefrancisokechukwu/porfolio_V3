@@ -40,7 +40,7 @@ const page = () => {
 
       <div className="max-w-[1083px] mt-10 px-3 mx-auto">
         <object
-          data="/image/my resume1.pdf"
+          data="/image/resume.pdf"
           type="application/pdf"
           width="900"
           height="600"
