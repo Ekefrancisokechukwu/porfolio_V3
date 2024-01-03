@@ -201,7 +201,16 @@ export const projects = [
     url: "https://x3-code.netlify.app/",
     sourceCode: "https://github.com/Ekefrancisokechukwu/x3-codes",
   },
-
+  {
+    image: admin,
+    title: "job tracting and ecommerce admine dashboard",
+    stacks: ["html", "Tailwind.css", "react.js"],
+    project_info:
+      "An admin job and ecommerce tracking dashboard for updating and tracking jobs and sales",
+    url: "https://tracting-dashboard.netlify.app",
+    sourceCode:
+      "https://github.com/Ekefrancisokechukwu/admin_tracting_dash_Board",
+  },
   {
     image: yummi,
     title: "Yummi foods",
@@ -228,24 +237,6 @@ export const projects = [
       "A UI/UX designer portfolio with great optimization and loading",
     url: "https://donmauel-portfolio.vercel.app/",
     sourceCode: "https://github.com/Ekefrancisokechukwu/donmanuel_portfolio",
-  },
-  {
-    image: admin,
-    title: "job tracting and ecommerce admine dashboard",
-    stacks: ["html", "Tailwind.css", "react.js"],
-    project_info:
-      "An admin job and ecommerce tracking dashboard for updating and tracking jobs and sales",
-    url: "https://tracting-dashboard.netlify.app",
-    sourceCode:
-      "https://github.com/Ekefrancisokechukwu/admin_tracting_dash_Board",
-  },
-  {
-    image: getLinked,
-    title: "getlinked.ai",
-    stacks: ["html", "Tailwind.css", "react.js"],
-    project_info: "Getlinkend hackton challenge website for registration",
-    url: "https://getlinked-challenge-omega.vercel.app/",
-    sourceCode: "https://github.com/Ekefrancisokechukwu/getlinkedChallenge",
   },
   {
     image: house,
