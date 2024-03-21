@@ -17,6 +17,7 @@ import pexels from "@/public/image/pexels.png";
 import don from "@/public/image/don.png";
 import house from "@/public/image/house.png";
 import specter from "@/public/image/specter.png";
+import synchub from "@/public/image/Synchub.png";
 
 export const navlinks = [
   {
@@ -184,6 +185,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    image: synchub,
+    title: "Synchub",
+    stacks: ["html", "Tailwind", "Next.js", "Typescript", "Zustand"],
+    project_info: "Synchub is more like a linktree clone alot more customiz...",
+    url: "https://synchub.vercel.app/",
+    sourceCode: "https://github.com/Ekefrancisokechukwu/Synchub",
+  },
   {
     image: specter,
     title: "Specter Store",
