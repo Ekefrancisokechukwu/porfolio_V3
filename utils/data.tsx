@@ -18,6 +18,7 @@ import don from "@/public/image/don.png";
 import house from "@/public/image/house.png";
 import specter from "@/public/image/specter.png";
 import synchub from "@/public/image/Synchub.png";
+import metrix from "@/public/image/metrix.png";
 
 export const navlinks = [
   {
@@ -192,6 +193,14 @@ export const projects = [
     project_info: "Synchub is more like a linktree clone alot more customiz...",
     url: "https://synchub.vercel.app/",
     sourceCode: "https://github.com/Ekefrancisokechukwu/Synchub",
+  },
+  {
+    image: metrix,
+    title: "Metrix Dashboard",
+    stacks: ["html", "Styled-component", "Next.js", "zustand"],
+    project_info: "Metrix is an analytics dashboard and it's 100% responsive ",
+    url: "https://metrix-dashboard-ten.vercel.app/",
+    sourceCode: "https://github.com/Ekefrancisokechukwu/metrix-dashboard",
   },
   {
     image: specter,

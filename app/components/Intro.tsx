@@ -108,13 +108,6 @@ const Intro = () => {
         </Link>
       </div>
 
-      {/* <motion.div
-        initial={{ opacity: 0.7 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.2 }}
-        className="w-[10rem] h-[10rem] bg-gray-50/10 left-5 absolute rounded-full blur-2xl"
-      > </motion.div> */}
-
       <div className="text-center sm:mt-0 mt-7">
         <AnimatedText
           className="md:text-[70px] sm:text-[43px] text-[35px] md:w-[697px] sm:-[w-620px] mx-auto sm:leading-[72.45px] leading-[50px]"
@@ -123,10 +116,6 @@ const Intro = () => {
         <h4 className="md:w-[647px] relative mx-auto mt-[40px] sm:text-[20px] text-[18px]">
           <span className="text-[#4e4747] font-extrabold info-intro">
             Hello ,I'm Francis{" "}
-          </span>
-          you can also call me{" "}
-          <span className="text-[#4e4747] info-intro font-extrabold">
-            Specter
           </span>
           , I'm a{" "}
           <span className="text-[#4e4747] info-intro font-extrabold">

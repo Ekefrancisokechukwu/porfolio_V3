@@ -54,12 +54,12 @@ const SingleProject = ({ project }: TProps) => {
           </Link>
         </div>
 
-        <div className="mt-10 flex gap-3">
+        <div className="mt-10 flex flex-wrap gap-3">
           {project.stacks.map((stack, i) => {
             return (
               <h5
                 key={i}
-                className="w-[6rem] grid place-items-center rounded-md capitalize  h-9 cursor-default bg-[#272727c7]"
+                className=" grid line-clamp-1 whitespace-nowrap place-items-center rounded-md capitalize  px-[8px] py-1 cursor-default bg-[#272727c7]"
               >
                 {stack}
               </h5>
