@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Franks(specter) Portfolio",
   description: "Franks porfolio",
+  metadataBase: new URL("https://specter-portfolio.vercel.app/"),
 };
 
 export default function RootLayout({
